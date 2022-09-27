@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffbf7;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+.txt {
+    color: #46484c;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.txtpromociona{
+    color: #8b8b8bcc;
+}
+.txtboton{
+    color: #fff;
+}
+form.signup-form {
+font-size: 14px;
+}
+
+button {
+   background-color: #025157;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+  margin-left: -10px;
+  display: block;
+  margin-left: 0;
+  border-radius: 5px;
+  font-size: 13;
+  font-weight: 600;
+  padding: 12px 20px;
+  width: 40%;
+}
+main {
+    margin-top: 285px;
+    text-align: center;
+}
+@media (max-width: 575px) {
+     main {
+    margin-top: 130px;
+}
+
+input,
+button {
+  height: 100%;
+  border-radius: 8px;
+}
+
+input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+  }
+}
