@@ -1,2 +1,5 @@
 *.txt
+<<<<<<< HEAD
 !prueba2.txt
+=======
+>>>>>>> 58be966de1c416c21d8789f7aadab562414b3cfe
