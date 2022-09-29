@@ -1,0 +1,90 @@
+sifloz
+
+
+
+// abrir la palicacion desde la consola 
+code .
+
+// moverte de rama
+git brach
+
+// main es la rama, se puede cambiar de rama en rama
+git checkout main
+
+//ignore archivos dentro del archivo se pone los file que no se quiere subir
+.gitinore
+
+// proporciona todo los comandos
+.git
+
+
+
+// se inicia git en la carpeta
+git init
+
+// agregar el commit con nombre del archivo
+git add . index.html
+
+// agregar commit
+git commit -m "Mi primer commit"
+
+
+// regresar a mi primer commmit
+
+
+// el regsitro del los archivos
+git log
+
+
+
+///configurar el Git
+git config --global user.email "atixeret@gmail.com"
+
+//configurar usuario
+git config --global user.name "atixeret"G
+
+// visualizas las ramas
+git branch
+
+// checkout  cambiar entre ramas  -b es crear una rama
+git checkout -b main
+
+//moverte entre ramas
+git checkout nombre de la rama
+
+//asignar rama principal
+git branch -M 
+
+// operacion del repositorio sobre el local y el remoto
+git remote add origin https://github.com/atixeret/matcha.git
+
+//publicar los cambios al reporitorio remoto -u solo  la primera vez
+git push -u origin main
+
+
+
+
+//arregla el mensanje 
+git add.
+//am agregar mensaje 
+git commmit -am "cuarto commit"
+git status
+git add.
+git commit -am "quinto commit"
+git status
+git log
+//cambias ek nombre del mensaje del commit anterior
+git commit --amend -m "quinto commit"
+
+
+
+
+//renombrar archivos
+git status
+git add .
+git mv text text.txt
+
+
+
+git fetch //para validar cambias en ramas remotas y rama actual
+git pull  //bajar cambios remotos de la rama actual
