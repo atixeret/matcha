@@ -99,3 +99,6 @@ git branch -m rama_vieja rama_nueva // renombrar rama
 git branch -d // borrar rama
 git flow // un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales
 git remote //te permite crear, ver y eliminar conexiones con otros repositorios
+
+
+
