@@ -84,10 +84,6 @@ git status
 git add .
 git mv text text.txt
 
-Alma Paola Zararte Torres
-Gerardo Bautista Riveras
-gerbari@hotmail.com
-
 git fetch //para validar cambias en ramas remotas y rama actual
 git pull  //bajar cambios remotos de la rama actual
 git push  origin main// subir cambios
@@ -101,7 +97,7 @@ git branch -m rama_vieja rama_nueva // renombrar rama
 git branch -d // borrar rama
 git flow // un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales
 git remote //te permite crear, ver y eliminar conexiones con otros repositorios
-git remote 
-
+git remote  show // ver el remoto en mi local
+gti remote -v // ver los dos servicios montados
 
 
