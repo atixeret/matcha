@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
+
+.faq {
+  background-color: white;
+  padding-bottom: 120px;
+}
+.faq h2 {
+  color: #025157;
+  font-family: "Alegreya", sans-serif;
+  /*margin-bottom: 20px;*/
+}
+
+.faq .card-header {
+  background-color: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.faq .card-header h2 > button {
+  color: #025157;
+  font-size: 28px;
+}
+
+.faq .card .card-body a {
+  color: #6abf4b;
+}
+
+.accordion-button::after {
+    width: 0px;
+}
+
+.accordion-button:not(.collapsed)
+{
+    background-color: white;
+}
+
+
+

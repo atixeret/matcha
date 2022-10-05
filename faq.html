@@ -6,50 +6,47 @@
     <title>Matcha - GN</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <link rel="stylesheet" href="css/styles_faq.css" type="text/css" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
 </head>
 
 <body>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
-
-.faq {
-  background-color: white;
-  padding-bottom: 120px;
-}
-
-.faq h2 {
-  color: #025157;
-  font-family: "Alegreya", sans-serif;
-  /*margin-bottom: 20px;*/
-}
-
-.faq .card-header {
-  background-color: white;
-  border-left: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.faq .card-header h2 > button {
-  color: #025157;
-  font-size: 28px;
-}
-
-.faq .card .card-body a {
-  color: #6abf4b;
-}
-
-.accordion-button:after{
-    width: 0px;
-}
-
-.accordion-button:not(.collapsed)
-{
-    background-color: white;
-}
-
-</style>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container-fluid">
+            <a href="/" class="logo">
+                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Platform</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq.html">FAQ</a>
+                    </li>
+                </ul>
+                <div class="actions">
+                    <a>Sign In</a>
+                    <button>Start free trial</button>
+                </div>
+            </div>
+        </div>
+    </nav>
 <section class="faq">
     <div class="accordion" id="accordionExample">
         <div class="card">
